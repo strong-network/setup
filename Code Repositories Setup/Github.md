@@ -1,4 +1,4 @@
-### GitHub Integration as Code Repository Provider
+# GitHub Integration as Code Repository Provider
 
 Follow these steps to create an OAuth App in GitHub to connect it to the platform:
 
