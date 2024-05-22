@@ -2,7 +2,7 @@
 
 You can follow these steps to connect your JFrog instance and the Strong Network Platform.
 
-At the moment this configuration can only be done in self-hosted JFrog instances. There you will need to modify your JFrog Artifactory Helm charts using the **values.yaml** file:
+At the moment this configuration can only be done in self-hosted JFrog instances.
 ```
 artifactory:
   enabled: true
