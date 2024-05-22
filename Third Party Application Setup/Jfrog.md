@@ -3,22 +3,6 @@
 You can follow these steps to connect your JFrog instance and the Strong Network Platform.
 
 At the moment this configuration can only be done in self-hosted JFrog instances.
-```
-artifactory:
-  enabled: true
-  frontend:
-  extraEnvironmentVariables:
-    - name: JF_FRONTEND_FEATURETOGGLER_ACCESSINTEGRATION
-      value: "true"
-  access:
-  accessConfig:
-    integrations-enabled: true
-    integration-templates:
-      - id: "1"
-        name: "StrongNetwork"
-        redirect-uri: "https://CODER_URL/oauth/apps/callback"
-        scope: "applied-permissions/user"
-```
 
 After modifying the file, log in to your JFrog deployment as the admin go to Platform Management, then Manage Integrations. Go to the tab called “Application”. You can also follow the link:
 `
