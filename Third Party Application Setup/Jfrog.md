@@ -2,9 +2,9 @@
 
 You can follow these steps to connect your JFrog instance and the Strong Network Platform.
 
-At the moment this configuration can only be done in self-hosted JFrog instances.
+At the moment this configuration can only be done in self-hosted JFrog instances or by asking the JFrog support team in the SaaS version.
 
-After modifying the file, log in to your JFrog deployment as the admin go to Platform Management, then Manage Integrations. Go to the tab called “Application”. You can also follow the link:
+Log in to your JFrog deployment as the admin go to Platform Management, then Manage Integrations. Go to the tab called “Application”. You can also follow the link:
 `
 https://[your_domain_name].jfrog.io/ui/admin/configuration/integrations
 `
