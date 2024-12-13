@@ -11,8 +11,7 @@ This platform supports integration with OpenID Connect for logging in.
   - **Application Type**: Select “Web Application”.
   - **Redirect URIs**: Add the following URI to handle login redirects: `https://example.com/oauth/callback`
   - **Logout Redirect URI**: Add the following URI to handle logout redirects: `https://example.com/auth/logout`
-
-Save the application.
+- Save the application.
 
 Note the Client ID and Client Secret generated during this process. These will be required for platform configuration.
 
