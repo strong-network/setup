@@ -6,11 +6,11 @@ This platform supports integration with OpenID Connect for logging in.
 
 - Go to the OpenID Provider's Developer Portal.
 - Navigate to the Applications or Clients section.
-- Click on “Create New Application” or equivalent.
-- **App Name**: Choose a name that will be displayed to users logging in.
-- **Application Type**: Select “Web Application”.
-- **Redirect URIs**: Add the following URI to handle login redirects: `https://example.com/oauth/callback`
-- **Logout Redirect URI**: Add the following URI to handle logout redirects: `https://example.com/auth/logout`
+- Click on “Create New Application” or equivalent. Set the following:
+  - **App Name**: Choose a name that will be displayed to users logging in.
+  - **Application Type**: Select “Web Application”.
+  - **Redirect URIs**: Add the following URI to handle login redirects: `https://example.com/oauth/callback`
+  - **Logout Redirect URI**: Add the following URI to handle logout redirects: `https://example.com/auth/logout`
 
 Save the application.
 
