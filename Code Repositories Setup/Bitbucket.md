@@ -43,7 +43,7 @@ In this section, we will see how to connect the Strong Network platform to a sel
     - **Direction:** Incoming
     - Click on continue
     - Set a unique name
-    - **Redirect URL:** Set to `https://example.com/oauth/v1/apps/callback`, where "example.com" should be replaced with the proper domain name.
+    - **Redirect URL:** Set to `https://example.com/oauth/apps/callback`, where "example.com" should be replaced with the proper domain name.
     - **Application Permissions:** Account: Write, Repositories: Admin
     - After clicking the "Save" button, enter "strong_network" for both Client ID and Client Secret.
 
