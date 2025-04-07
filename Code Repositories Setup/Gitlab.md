@@ -4,7 +4,7 @@ Follow these steps to create an OAuth App in GitLab to connect it to the platfor
 
 - **Navigate to Applications:**
   - Using a GitLab account, go to user settings and then to "Applications".
-  - You can follow this [https://gitlab.com/-/profile/applications](https://gitlab.com/-/profile/applications) to reach this menu directly.
+  - You can follow this [https://gitlab.com/-/user_settings/applications](https://gitlab.com/-/user_settings/applications) to reach this menu directly.
 
 - **Create a New OAuth App:**
   - Click on "New application" and set the following fields:
