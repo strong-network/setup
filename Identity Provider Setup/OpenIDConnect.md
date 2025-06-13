@@ -9,8 +9,8 @@ This platform supports integration with OpenID Connect for logging in.
 - Click on “Create New Application” or equivalent. Set the following:
   - **App Name**: Choose a name that will be displayed to users logging in.
   - **Application Type**: Select “Web Application”.
-  - **Redirect URIs**: Add the following URI to handle login redirects: `https://example.com/oauth/callback`
-  - **Logout Redirect URI**: Add the following URI to handle logout redirects: `https://example.com/auth/logout`
+  - **Redirect URIs**: Add the following URI to handle login redirects: `https://example.strong.network/oauth/callback`
+  - **Logout Redirect URI**: Add the following URI to handle logout redirects: `https://example.strong.network/auth/logout`
 - Save the application.
 
 Note the Client ID and Client Secret generated during this process. These will be required for platform configuration.
@@ -41,7 +41,7 @@ Enable Single Logout if supported by the provider.
 
 Add the Logout Redirect URI configured earlier:
 
-`https://example.com/auth/logout`
+`https://example.strong.network/auth/logout`
 
 Optionally, add the following claims to the ID token:
 

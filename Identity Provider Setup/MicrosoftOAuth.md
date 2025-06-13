@@ -10,7 +10,7 @@ The platform supports integration with Azure Active Directory for logging in wit
 - Click on “App registrations” and then “New registration”. Set the following:
   - **App name:** Choose a name that will be publicly visible to users logging into the platform.
   - **Supported account types:** We recommend selecting “Accounts in any organizational directory (Any Azure AD directory - Multitenant) and personal Microsoft accounts (e.g., Skype, Xbox)” to allow registered users to log in with their public domain accounts.
-  - **Redirect URI:** Set the selector to “Web” and enter a URI similar to `https://example.com/oauth/callback`.
+  - **Redirect URI:** Set the selector to “Web” and enter a URI similar to `https://example.strong.network/oauth/callback`.
 
 ![MS 2](../assets/images/ms_2.png)
 
