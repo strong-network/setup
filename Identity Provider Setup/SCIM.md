@@ -21,6 +21,16 @@ Please ensure that your SCIM provider of choice—such as Microsoft Entra, Okta,
 
 `Authorization: Bearer <token>`
 
+### Using Okta
+To use Okta, you will need to set these two fields:
+* **SCIM connector base URL:** `https://example.strong.network/scim`
+* **Unique identifier field for users:** `userName`
+
+It will look similar to:
+![SCIM Okta Config](../assets/images/scim_okta_1.png)
+
+Under users you can enable the following options, as desired:
+![SCIM Okta Config Users](../assets/images/scim_okta_2.png)
 
 
 ## Configure the Strong Network Platform:
