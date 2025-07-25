@@ -3,9 +3,9 @@
 ## Azure Dev Ops with Microsoft Entra ID OAuth (recommended)
 Follow these steps to create an OAuth App using Microsoft Entra ID Oauth to connect it to the platform.
 
-- Go to the Platform as Admin -> System Configuration -> Integrations -> Code Repository Applications or follow this URL: https://example.com/platform/system_configuration/integrations/repos where example.com has to be replaces by the URL of your deployment.
+- Go to the Platform as Admin -> System Configuration -> Integrations -> Code Repository Applications or follow this URL: https://example.com/platform/system_configuration/integrations/repos where example.com has to be replaced by the URL of your deployment.
 
-Copy the URL redirect URL that you will see there. You will need it for later. 
+Click on "Add Azure Dev Ops". Copy the URL redirect URL that you will see there. You will need it for later. 
 It will be `https://example.com/oauth/apps/callback` (replace `example.com` with the proper domain name).
 
 - Navigate to [Azure](https://portal.azure.com), Microsoft Entra ID, open the Manage dropdown and click on App registrations. click on "New Registration"
