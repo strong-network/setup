@@ -3,10 +3,12 @@
 ## Azure Dev Ops with Microsoft Entra ID OAuth (recommended)
 Follow these steps to create an OAuth App using Microsoft Entra ID Oauth to connect it to the platform.
 
-- Go to the Platform as Admin -> System Configuration -> Integrations -> Code Repository Applications or follow this URL: https://example.com/platform/system_configuration/integrations/repos where example.com has to be replaced by the URL of your deployment.
+- Go to the Platform as Admin -> System Configuration -> Integrations -> Code Repository Applications or follow this URL: `https://example.com/platform/system_configuration/integrations/repos` where `example.com` has to be replaced by the URL of your deployment.
 
 Click on "Add Azure Dev Ops". Copy the URL redirect URL that you will see there. You will need it for later. 
 It will be `https://example.com/oauth/apps/callback` (replace `example.com` with the proper domain name).
+
+![Azure Dev Ops](../assets/images/azure_devops_add.png)
 
 - Navigate to [Azure](https://portal.azure.com), Microsoft Entra ID, open the Manage dropdown and click on App registrations. click on "New Registration"
 
@@ -26,11 +28,11 @@ Finally, go to the Platform, and click on "Add Azure DevOps" you will need to pr
 - Directory (tenant) ID
 The Application (client) ID and Directory (tenant) ID can be found in the Overview page of the Azure App Registration
 - Specify the Azure Organization name. This application can only access repositories under this specific organization. To access repositories from different organizations, create multiple Azure DevOps Code Repository Applications, each with its corresponding organization name. You may use the same Client ID, Tenant ID and secret across all of them.
-![Azure Dev Ops](../assets/images/azure_devops_add.png)
+
 
 Paste Client ID, App Secret and Organization name from steps above: 
 
-![Azure Dev Ops 2](../assets/images/azure_devops_add_2.png)
+![Add Azure Dev Ops](../assets/images/azure_devops_add_entra.png)
 
 ## Azure Dev Ops OAuth (deprecated)
 Follow these steps to create an OAuth App in Azure DevOps to connect it to the platform.
